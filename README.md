@@ -20,7 +20,8 @@
 
 
 ### Generated Reply
-<img width="517" height="269" alt="Screenshot 2026-04-10 at 2 22 01 PM" src="https://github.com/user-attachments/assets/8c46bd0a-e2eb-4550-9228-8b3d38f5d671" />
+<img width="487" height="357" alt="Screenshot 2026-04-10 at 2 19 37 PM" src="https://github.com/user-attachments/assets/330a40a3-9fff-4675-bc1b-1688b4c39e5c" />
+
 
 
 ---

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn AI Reply</title>
+  <style>
+    body {
+      width: 320px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f3f2ef;
+    }
+    h2 {
+      color: #0077B5;
+      margin-bottom: 4px;
+    }
+    p {
+      color: gray;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    label {
+      font-size: 13px;
+      font-weight: bold;
+      color: #333;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0 14px 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 13px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #0077B5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005e93;
+    }
+    #status {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 13px;
+      color: green;
+      display: none;
+    }
+    a {
+      color: #0077B5;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h2>✨ LinkedIn AI Reply</h2>
+  <p>Powered by Groq + Llama 3.3 70B</p>
+
+  <label>🔑 Groq API Key</label>
+  <input
+    type="password"
+    id="apiKey"
+    placeholder="gsk_xxxxxxxxxxxxxxxxxxxx"
+  />
+  <a href="https://console.groq.com" target="_blank">
+    Get free API key →
+  </a>
+
+  <br/><br/>
+
+  <label>🎨 Reply Tone</label>
+  <select id="tone">
+    <option value="professional">Professional</option>
+    <option value="friendly">Friendly</option>
+    <option value="formal">Formal</option>
+    <option value="casual">Casual</option>
+    <option value="concise">Concise</option>
+  </select>
+
+  <button id="saveBtn">💾 Save Settings</button>
+  <div id="status">✅ Settings saved!</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-> Chrome extension that generates smart AI replies on LinkedIn using Groq + Llama 3.3 70B — completely free.
+> Chrome extension that generates smart AI replies on LinkedIn using Groq + Llama 3.3 70B 
 
 ---
 
